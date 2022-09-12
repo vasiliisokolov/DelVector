@@ -18,12 +18,12 @@ int main() {
     std::cout << "Enter unit to delete:\n";
     std::cin >> sn;
     sort_vec(vec, sn);
-    for (int i = 0; i < vec.size(); i++)
+    /*for (int i = 0; i < vec.size(); i++)
     {
         std::cout << vec[i] << " ";
     }
     del_unit(vec, sn);
-    std::cout << "================" << std::endl;
+    //std::cout << "================" << std::endl;*/
 
     for (int i = 0; i < vec.size(); i++)
     {
