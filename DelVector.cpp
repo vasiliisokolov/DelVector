@@ -21,10 +21,9 @@ int main() {
     /*for (int i = 0; i < vec.size(); i++)
     {
         std::cout << vec[i] << " ";
-    }
+    }*/
     del_unit(vec, sn);
-    //std::cout << "================" << std::endl;*/
-
+    
     for (int i = 0; i < vec.size(); i++)
     {
         std::cout << vec[i] << " ";
